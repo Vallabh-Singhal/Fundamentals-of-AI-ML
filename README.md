@@ -5,26 +5,26 @@
 
 This project:
 
-Loads a real-world SMS dataset
-Preprocesses text data
-Converts text into numerical features using TF-IDF
-Trains a Naive Bayes model
-Evaluates model performance
-Saves the trained model
-Predicts whether a message is spam or not
+* Loads a real-world SMS dataset
+* Preprocesses text data
+* Converts text into numerical features using TF-IDF
+* Trains a Naive Bayes model
+* Evaluates model performance
+* Saves the trained model
+* Predicts whether a message is spam or not
 ## 🧠 How It Works
 ---
-Text messages are cleaned and processed
-TF-IDF converts text → numerical vectors
-Model learns patterns from spam vs normal messages
-New messages are classified based on learned patterns
+* Text messages are cleaned and processed
+* TF-IDF converts text → numerical vectors
+* Model learns patterns from spam vs normal messages
+* New messages are classified based on learned patterns
 ## 🛠️ Tech Stack
 ---
-Python
-Pandas
-Scikit-learn
-NumPy
-Pickle (for model saving)
+* Python
+* Pandas
+* Scikit-learn
+* NumPy
+* Pickle (for model saving)
 ## 📦 Setup Instructions
 ---
 Follow these steps to run the project locally:
@@ -63,13 +63,13 @@ Prediction: Spam
 
 Fundamentals-of-AI-ML
 
-│── spam_classifier.py     # Main ML script
+│── spam_classifier.py                 # Main ML script
 
-│── spam_model.pkl         # Saved trained model
+│── spam_model.pkl                     # Saved trained model
 
-│── vectorizer.pkl         # Saved TF-IDF vectorizer
+│── vectorizer.pkl                     # Saved TF-IDF vectorizer
 
-│── README.md              # Project documentation
+│── README.md                          # Project documentation
 
 ## 💡 How to Use for Custom Input
 ---
